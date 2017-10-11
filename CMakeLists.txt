@@ -5,6 +5,10 @@ set(eos_VERSION_MINOR 12)
 set(eos_VERSION_PATCH 1)
 set(eos_VERSION ${eos_VERSION_MAJOR}.${eos_VERSION_MINOR}.${eos_VERSION_PATCH})
 
+set(OpenCV_DIR "C:/OpenCV/opencv/vs17build")
+set(BOOST_ROOT "C:/Users/ckn6763/Desktop/boost_1_65_1")
+set(Boost_USE_STATIC_LIBS ON)
+
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 # This sets the C++ standard to c++14 and required for all the following targets that we define.
